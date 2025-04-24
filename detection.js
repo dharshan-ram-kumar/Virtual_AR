@@ -5,8 +5,8 @@ var video = document.getElementById('video1');
 video.setAttribute('playsinline', '');
 video.setAttribute('autoplay', '');
 video.setAttribute('muted', '');
-video.style.width = '880px';
-video.style.height = '680px';
+video.style.width = '568px';
+video.style.height = '428px';
 
 //Front camera access
 var facingMode = "user";
@@ -50,8 +50,8 @@ video2.setAttribute('playsinline', '');
 video2.setAttribute('autoplay', '');
 video2.setAttribute('muted', '');
 video2.setAttribute('loop','')
-video2.style.width = '880px';
-video2.style.height = '680px';
+video2.style.width = '570px';
+video2.style.height = '426px';
 btn.style.display = "none";
 photobtn.addEventListener('click', photo);
 function photo() {
