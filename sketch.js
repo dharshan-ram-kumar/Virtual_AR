@@ -352,7 +352,7 @@ let sketch = function (p) {
 
   //Canvas Created infront of webcam video output and PNG images placed on the canvas
   p.setup = function () {
-    canvas = p.createCanvas(880, 680);
+    canvas = p.createCanvas(570, 426);
     canvas.id("video1");
   };
 
