@@ -20983,7 +20983,6 @@ canvas {
         will have their <slot> elements removed by ShadyCSS -->
   <div class="slot poster">
     <slot name="poster">
-      <button type="button" id="default-poster" aria-hidden="true" aria-label="Loading 3D model"></button>
     </slot>
   </div>
 

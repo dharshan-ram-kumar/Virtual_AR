@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>VReon Virtual try on</title>
+    <title>Virtual try on</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="assets/css/main.css" />
 
@@ -53,6 +53,13 @@
       touch-action="pan-y"
       generate-schema
     ></model-viewer>
+    <model-viewer
+      id="avatarmodel"
+      shadow-intensity="1"
+      camera-controls
+      touch-action="pan-y"
+      generate-schema
+    ></model-viewer>
   </head>
   <body>
     <div id="loading"></div>
@@ -76,7 +83,7 @@
           transform: translate(-50%, -50%);
         "
       >
-        <input
+        <!-- <input
           type="file"
           accept="image/*, video/*"
           onchange="loadMedia(event)"
@@ -86,7 +93,7 @@
           id="media-preview"
           src="#"
           alt="Media Preview"
-        />
+        /> -->
         <video id="video2"></video>
 
         uploaded video
