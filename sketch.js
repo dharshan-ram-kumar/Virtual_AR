@@ -90,10 +90,10 @@ function avatarmodel() {
   let avatarmodel = document.getElementById("avatarmodel");
 
   if (count == 1) {
-    avatarmodel.src = "assets/3Dassets/Jewel_Model_With_Earring.glb";
+    avatarmodel.src = "assets/3Dassets/Ear_Ring_Jewellery.glb";
   }
   if (count == 3) {
-    avatarmodel.src = "assets/3Dassets/Jewel_Model_With_Necklace.glb";
+    avatarmodel.src = "assets/3Dassets/Jewellery_Necklace.glb";
   }
 }
 
